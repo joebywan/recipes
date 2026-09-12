@@ -7,6 +7,20 @@ Fudgy, flourless, high-protein.
 - **Tin:** 20 cm square, lined
 - **Bake:** 180 °C fan, ~22 min
 
+## At a glance
+
+```mermaid
+flowchart LR
+  L["Red lentils 100 g<br>Water 250 ml"] --> S["Simmer ~15 min<br>until mushy, drain well"]
+  S --> B1["Blitz until smooth"]
+  E["Eggs 2<br>Vanilla 1 tsp"] --> B1
+  B1 --> B2["Blitz to a thick batter"]
+  D["Cocoa 30 g<br>Chocolate whey 30 g<br>Powdered PB 2 tbsp<br>Monkfruit 3 tbsp<br>Baking powder 1 tsp<br>Salt 1/4 tsp"] --> B2
+  B2 --> F["Fold in<br>save a few chips for the top"]
+  C["Dark choc chips 40 g"] --> F
+  F --> K["Spread in lined 20 cm tin, ~20 mm deep<br>Bake 180 C fan ~22 min until just set<br>Cool, chill, slice into 9"]
+```
+
 ## Ingredients
 
 ### Lentils (cooked first)
