@@ -6,6 +6,7 @@ A personal collection of recipes, one Markdown file each.
 
 | Recipe | Notes |
 | --- | --- |
+| [Red Lentil Protein Brownies](recipes/red-lentil-protein-brownies.md) | Fudgy, flourless, high-protein · 9 squares · ~110 cal / 8 g protein each |
 
 ## Conventions
 
