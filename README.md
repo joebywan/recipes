@@ -14,3 +14,4 @@ A personal collection of recipes, one Markdown file each.
 - Metric weights first, with cup/spoon measures where they're genuinely easier.
 - Oven temperatures are stated as fan (convection) unless noted otherwise.
 - Add new recipes to the index table above.
+- Process diagrams go in a Mermaid `flowchart` block — GitHub renders those natively, and they stay diffable in review.
