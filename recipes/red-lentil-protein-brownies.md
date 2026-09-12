@@ -11,15 +11,27 @@ Fudgy, flourless, high-protein.
 
 ```mermaid
 flowchart LR
-  L["Red lentils 100 g<br>Water 250 ml"] --> S["Simmer ~15 min<br>until mushy, drain well"]
-  S --> B1["Blitz until smooth"]
-  E["Eggs 2<br>Vanilla 1 tsp"] --> B1
-  B1 --> B2["Blitz to a thick batter"]
-  D["Cocoa 30 g<br>Chocolate whey 30 g<br>Powdered PB 2 tbsp<br>Monkfruit 3 tbsp<br>Baking powder 1 tsp<br>Salt 1/4 tsp"] --> B2
-  B2 --> F["Fold in<br>save a few chips for the top"]
-  C["Dark choc chips 40 g"] --> F
-  F --> K["Spread in lined 20 cm tin, ~20 mm deep<br>Bake 180 C fan ~22 min until just set<br>Cool, chill, slice into 9"]
+  L["Red lentils 100 g<br>Water 250 ml"]:::mat
+  E["Eggs 2<br>Vanilla 1 tsp"]:::mat
+  D["Cocoa 30 g<br>Chocolate whey 30 g<br>Powdered PB 2 tbsp<br>Monkfruit 3 tbsp<br>Baking powder 1 tsp<br>Salt 1/4 tsp"]:::mat
+  C["Dark choc chips 40 g"]:::mat
+
+  S(["Simmer ~15 min<br>until mushy, drain well"]):::act
+  B1(["Blitz until smooth"]):::act
+  B2(["Blitz to a thick batter"]):::act
+  F(["Fold in<br>save a few chips for the top"]):::act
+  K(["Spread in lined 20 cm tin, ~20 mm deep<br>Bake 180 C fan ~22 min until just set<br>Cool, chill, slice into 9"]):::act
+
+  L --> S --> B1 --> B2 --> F --> K
+  E --> B1
+  D --> B2
+  C --> F
+
+  classDef mat fill:#f7f6f1,stroke:#d3d1c7,stroke-width:1px,color:#2c2c2a
+  classDef act fill:#fbf3e6,stroke:#e6b873,stroke-width:1.5px,color:#2c2c2a
 ```
+
+Square boxes are things you put in; rounded boxes are things you do.
 
 ## Ingredients
 

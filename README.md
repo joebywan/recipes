@@ -15,3 +15,4 @@ A personal collection of recipes, one Markdown file each.
 - Oven temperatures are stated as fan (convection) unless noted otherwise.
 - Add new recipes to the index table above.
 - Process diagrams go in a Mermaid `flowchart` block — GitHub renders those natively, and they stay diffable in review.
+- In those diagrams, ingredients are square `mat` nodes and actions are rounded `act` nodes, so the two never read as the same kind of thing.
