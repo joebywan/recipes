@@ -24,13 +24,13 @@ ingredients:
     items:
       - {id: cocoa, name: Cocoa, amount: 30 g}
       - {id: whey, name: Chocolate whey, amount: 30 g}
-      - {id: pb, name: Powdered peanut butter, amount: 2 tbsp, short: Powdered PB}
-      - {id: monkfruit, name: Monkfruit sweetener, amount: 3 tbsp, short: Monkfruit}
+      - {id: pb, name: Powdered peanut butter, amount: 2 tbsp}
+      - {id: monkfruit, name: Monkfruit sweetener, amount: 3 tbsp}
       - {id: bp, name: Baking powder, amount: 1 tsp}
       - {id: salt, name: Salt, amount: ¼ tsp}
   - group: Folded in
     items:
-      - {id: chips, name: Dark chocolate chips, amount: 40 g, short: Dark choc chips}
+      - {id: chips, name: Dark chocolate chips, amount: 40 g}
   - group: Optional
     optional: true
     items:

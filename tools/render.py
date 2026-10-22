@@ -285,34 +285,6 @@ def esc(s):
     return html.escape(str(s), quote=True)
 
 
-# --- Mermaid (kept alongside the SVG until the SVG is proven) ----------------
-
-
-def render_mermaid(r):
-    ings, steps = r["_ingredients"], r["_steps"]
-    lines = ["```mermaid", "flowchart LR"]
-    edges = []
-    for sid, step in steps.items():
-        mats = [ings[u] for u in step["uses"] if u in ings]
-        if mats:
-            label = "<br>".join(f"{i.get('short', i['name'])} {i['amount']}" for i in mats)
-            lines.append(f'  {sid}_in["{label}"]:::mat')
-            edges.append(f"  {sid}_in --> {sid}")
-        for u in step["uses"]:
-            if u in steps:
-                edges.append(f"  {u} --> {sid}")
-    lines.append("")
-    for sid, step in steps.items():
-        lines.append(f'  {sid}(["{"<br>".join(step["lines"])}"]):::act')
-    lines += [""] + edges + [
-        "",
-        "  classDef mat fill:#f7f6f1,stroke:#d3d1c7,stroke-width:1px,color:#2c2c2a",
-        "  classDef act fill:#fbf3e6,stroke:#e6b873,stroke-width:1.5px,color:#2c2c2a",
-        "```",
-    ]
-    return "\n".join(lines)
-
-
 # --- Markdown ----------------------------------------------------------------
 
 
@@ -336,13 +308,6 @@ def render_markdown(r):
         "",
         "Read left to right. Each shaded box is a step that combines "
         "everything to its left.",
-        "",
-        "<details>",
-        "<summary>Mermaid version (being replaced by the chart above)</summary>",
-        "",
-        render_mermaid(r),
-        "",
-        "</details>",
         "",
         "## Ingredients",
         "",
