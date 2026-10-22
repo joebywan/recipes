@@ -1,0 +1,79 @@
+# Source for red-lentil-protein-brownies.md and .svg.
+# Edit this file, then run `python3 tools/render.py` (CI does it on merge).
+
+title: Red Lentil Protein Brownies
+summary: Fudgy, flourless, high-protein.
+index_note: Fudgy, flourless, high-protein · 9 squares · ~110 cal / 8 g protein each
+
+facts:
+  Makes: 9 squares
+  Per square: ~110 cal / 8 g protein
+  Tin: 20 cm square, lined
+  Bake: 180 °C fan, ~22 min
+
+ingredients:
+  - group: Lentils (cooked first)
+    items:
+      - {id: lentils, name: Red lentils, amount: 100 g}
+      - {id: water, name: Water, amount: 250 ml}
+  - group: Blitzed with the lentils
+    items:
+      - {id: eggs, name: Eggs, amount: "2"}
+      - {id: vanilla, name: Vanilla, amount: 1 tsp}
+  - group: Dry mix
+    items:
+      - {id: cocoa, name: Cocoa, amount: 30 g}
+      - {id: whey, name: Chocolate whey, amount: 30 g}
+      - {id: pb, name: Powdered peanut butter, amount: 2 tbsp, short: Powdered PB}
+      - {id: monkfruit, name: Monkfruit sweetener, amount: 3 tbsp, short: Monkfruit}
+      - {id: bp, name: Baking powder, amount: 1 tsp}
+      - {id: salt, name: Salt, amount: ¼ tsp}
+  - group: Folded in
+    items:
+      - {id: chips, name: Dark chocolate chips, amount: 40 g, short: Dark choc chips}
+  - group: Optional
+    optional: true
+    items:
+      - {id: yoghurt, name: Protein yoghurt, amount: 50 g, note: only if the batter is too stiff to spread}
+
+# The engineer's chart. Each step combines ingredients and/or earlier steps;
+# the last step is the finished dish.
+chart:
+  - id: simmer
+    uses: [lentils, water]
+    do: Simmer ~15 min until mushy, drain well
+  - id: blitz
+    uses: [simmer, eggs, vanilla]
+    do: Blitz until smooth
+  - id: batter
+    uses: [blitz, cocoa, whey, pb, monkfruit, bp, salt]
+    do: Blitz to a thick batter
+  - id: fold
+    uses: [batter, chips]
+    do: Fold in, save a few chips for the top
+  - id: bake
+    uses: [fold]
+    do:
+      - Spread in lined 20 cm tin, ~20 mm deep
+      - Bake 180 °C fan ~22 min until just set
+      - Cool, chill, slice into 9
+
+method:
+  - title: Cook the lentils.
+    text: Simmer the red lentils in the water for ~15 minutes, until mushy. Drain well.
+  - title: Blitz smooth.
+    text: Add the eggs and vanilla to the drained lentils and blitz until completely smooth.
+  - title: Add the dry mix.
+    text: Add the cocoa, whey, powdered peanut butter, monkfruit, baking powder and salt. Blitz to a thick batter.
+  - title: Fold in the chocolate.
+    text: Fold in the chocolate chips, saving a few to scatter on top.
+  - title: Bake.
+    text: Spread into the lined 20 cm tin, about 20 mm deep. Bake at 180 °C fan for ~22 minutes, until just set.
+  - title: Cool and chill.
+    text: Cool in the tin, then chill before slicing into 9 squares.
+
+notes:
+  - Drain the lentils well — leftover water makes the brownies gummy. Only add the 50 g protein yoghurt if the batter is too stiff to spread.
+  - Blitz completely smooth so there's no lentil texture. Taste the raw batter and add more monkfruit if you want it sweeter.
+  - Pull it slightly underbaked; it firms up as it cools and gets fudgier cold.
+  - Keeps ~4–5 days in the fridge and freezes well.

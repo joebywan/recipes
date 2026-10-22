@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1201" height="350" viewBox="0 0 1201 350" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13">
+<title>Red Lentil Protein Brownies: engineer's chart</title>
+<style>
+.bg{fill:#ffffff}.title{fill:#2c2c2a;font-weight:600}
+.mat{fill:#f7f6f1;stroke:#d3d1c7}.act{fill:#fbf3e6;stroke:#e6b873}
+.edge{fill:none;stroke:#8a877c;stroke-width:1.5}
+text{fill:#2c2c2a}.amt{fill:#5f5e5a}
+@media (prefers-color-scheme: dark){
+.bg{fill:#1d1d1b}.title{fill:#ecebe6}
+.mat{fill:#2a2a27;stroke:#4a4944}.act{fill:#3a2f1e;stroke:#9a7436}
+.edge{stroke:#8a877c}text{fill:#ecebe6}.amt{fill:#b4b2a9}}
+</style>
+<rect class="bg" width="1201" height="350"/>
+<text class="title" x="8" y="15.5" dominant-baseline="central" font-size="15">Red Lentil Protein Brownies</text>
+<rect class="mat" x="0.0" y="31.0" width="64.9" height="29.0"/>
+<text class="amt" x="8.0" y="45.5" dominant-baseline="central">100 g</text>
+<rect class="mat" x="64.9" y="31.0" width="169.9" height="29.0"/>
+<text x="72.9" y="45.5" dominant-baseline="central">Red lentils</text>
+<rect class="mat" x="0.0" y="60.0" width="64.9" height="29.0"/>
+<text class="amt" x="8.0" y="74.5" dominant-baseline="central">250 ml</text>
+<rect class="mat" x="64.9" y="60.0" width="169.9" height="29.0"/>
+<text x="72.9" y="74.5" dominant-baseline="central">Water</text>
+<rect class="mat" x="0.0" y="89.0" width="64.9" height="29.0"/>
+<text class="amt" x="8.0" y="103.5" dominant-baseline="central">2</text>
+<rect class="mat" x="64.9" y="89.0" width="325.4" height="29.0"/>
+<text x="72.9" y="103.5" dominant-baseline="central">Eggs</text>
+<rect class="mat" x="0.0" y="118.0" width="64.9" height="29.0"/>
+<text class="amt" x="8.0" y="132.5" dominant-baseline="central">1 tsp</text>
+<rect class="mat" x="64.9" y="118.0" width="325.4" height="29.0"/>
+<text x="72.9" y="132.5" dominant-baseline="central">Vanilla</text>
+<rect class="mat" x="0.0" y="147.0" width="64.9" height="29.0"/>
+<text class="amt" x="8.0" y="161.5" dominant-baseline="central">30 g</text>
+<rect class="mat" x="64.9" y="147.0" width="458.1" height="29.0"/>
+<text x="72.9" y="161.5" dominant-baseline="central">Cocoa</text>
+<rect class="mat" x="0.0" y="176.0" width="64.9" height="29.0"/>
+<text class="amt" x="8.0" y="190.5" dominant-baseline="central">30 g</text>
+<rect class="mat" x="64.9" y="176.0" width="458.1" height="29.0"/>
+<text x="72.9" y="190.5" dominant-baseline="central">Chocolate whey</text>
+<rect class="mat" x="0.0" y="205.0" width="64.9" height="29.0"/>
+<text class="amt" x="8.0" y="219.5" dominant-baseline="central">2 tbsp</text>
+<rect class="mat" x="64.9" y="205.0" width="458.1" height="29.0"/>
+<text x="72.9" y="219.5" dominant-baseline="central">Powdered peanut butter</text>
+<rect class="mat" x="0.0" y="234.0" width="64.9" height="29.0"/>
+<text class="amt" x="8.0" y="248.5" dominant-baseline="central">3 tbsp</text>
+<rect class="mat" x="64.9" y="234.0" width="458.1" height="29.0"/>
+<text x="72.9" y="248.5" dominant-baseline="central">Monkfruit sweetener</text>
+<rect class="mat" x="0.0" y="263.0" width="64.9" height="29.0"/>
+<text class="amt" x="8.0" y="277.5" dominant-baseline="central">1 tsp</text>
+<rect class="mat" x="64.9" y="263.0" width="458.1" height="29.0"/>
+<text x="72.9" y="277.5" dominant-baseline="central">Baking powder</text>
+<rect class="mat" x="0.0" y="292.0" width="64.9" height="29.0"/>
+<text class="amt" x="8.0" y="306.5" dominant-baseline="central">¼ tsp</text>
+<rect class="mat" x="64.9" y="292.0" width="458.1" height="29.0"/>
+<text x="72.9" y="306.5" dominant-baseline="central">Salt</text>
+<rect class="mat" x="0.0" y="321.0" width="64.9" height="29.0"/>
+<text class="amt" x="8.0" y="335.5" dominant-baseline="central">40 g</text>
+<rect class="mat" x="64.9" y="321.0" width="612.3" height="29.0"/>
+<text x="72.9" y="335.5" dominant-baseline="central">Dark chocolate chips</text>
+<rect class="act" x="234.8" y="31.0" width="155.6" height="58.0"/>
+<text x="242.8" y="51.5" dominant-baseline="central">Simmer ~15 min until</text>
+<text x="242.8" y="68.5" dominant-baseline="central">mushy, drain well</text>
+<rect class="act" x="390.3" y="31.0" width="132.7" height="116.0"/>
+<text x="398.3" y="89.0" dominant-baseline="central">Blitz until smooth</text>
+<rect class="act" x="523.0" y="31.0" width="154.1" height="290.0"/>
+<text x="531.0" y="176.0" dominant-baseline="central">Blitz to a thick batter</text>
+<rect class="act" x="677.2" y="31.0" width="254.2" height="319.0"/>
+<text x="685.2" y="190.5" dominant-baseline="central">Fold in, save a few chips for the top</text>
+<rect class="act" x="931.4" y="31.0" width="269.1" height="319.0"/>
+<text x="939.4" y="165.0" dominant-baseline="central">Spread in lined 20 cm</text>
+<text x="939.4" y="182.0" dominant-baseline="central">tin, ~20 mm deep</text>
+<text x="939.4" y="199.0" dominant-baseline="central">Bake 180 °C fan ~22 min until just set</text>
+<text x="939.4" y="216.0" dominant-baseline="central">Cool, chill, slice into 9</text>
+<rect class="edge" x="0.75" y="0.75" width="1199.0" height="348.5"/>
+</svg>

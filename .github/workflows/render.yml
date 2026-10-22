@@ -1,0 +1,49 @@
+name: Render recipes
+
+# Turns recipes/*.yaml into the .md pages, .svg charts and README index,
+# and commits the result back to the branch.
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render-${{ github.head_ref || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # On a PR, check out the branch itself so the render can be pushed to it.
+          ref: ${{ github.head_ref || github.ref }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml==6.0.2
+      - name: Test
+        run: python -m unittest discover -s tools -v
+      - name: Render
+        run: python tools/render.py
+      - name: Commit rendered files
+        # Forks can't be pushed to; their render is only a check.
+        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+        run: |
+          git add -A recipes README.md
+          if git diff --cached --quiet; then
+            echo "Rendered files are up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Render recipes"
+          git push
+      - name: Fail if a fork left files stale
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository
+        run: python tools/render.py --check
