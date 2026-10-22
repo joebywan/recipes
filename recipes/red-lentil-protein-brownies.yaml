@@ -19,15 +19,15 @@ ingredients:
   - group: Blitzed with the lentils
     items:
       - {id: eggs, name: Eggs, amount: "2"}
-      - {id: vanilla, name: Vanilla, amount: 1 tsp}
+      - {id: vanilla, name: Vanilla, amount: 2 tsp}
   - group: Dry mix
     items:
-      - {id: cocoa, name: Cocoa, amount: 30 g}
+      - {id: cocoa, name: Cocoa, amount: 30 g, note: Dutch-process if you have it}
       - {id: whey, name: Chocolate whey, amount: 30 g}
       - {id: pb, name: Powdered peanut butter, amount: 2 tbsp}
       - {id: monkfruit, name: Monkfruit sweetener, amount: 3 tbsp}
       - {id: bp, name: Baking powder, amount: 1 tsp}
-      - {id: salt, name: Salt, amount: ¼ tsp}
+      - {id: salt, name: Salt, amount: ½ tsp}
   - group: Folded in
     items:
       - {id: chips, name: Dark chocolate chips, amount: 40 g}
@@ -41,7 +41,10 @@ ingredients:
 chart:
   - id: simmer
     uses: [lentils, water]
-    do: Simmer ~15 min until mushy, drain well
+    do:
+      - Rinse until the water runs clear
+      - Simmer ~15 min until mushy
+      - Drain, rinse again, drain well
   - id: blitz
     uses: [simmer, eggs, vanilla]
     do: Blitz until smooth
@@ -60,7 +63,7 @@ chart:
 
 method:
   - title: Cook the lentils.
-    text: Simmer the red lentils in the water for ~15 minutes, until mushy. Drain well.
+    text: Rinse the red lentils in a sieve until the water runs clear. Simmer in the water for ~15 minutes, until very mushy. Drain, rinse again with warm water, and drain well.
   - title: Blitz smooth.
     text: Add the eggs and vanilla to the drained lentils and blitz until completely smooth.
   - title: Add the dry mix.
@@ -73,6 +76,7 @@ method:
     text: Cool in the tin, then chill before slicing into 9 squares.
 
 notes:
+  - Most of the lentil taste is in the starchy cooking water, so the rinse before and after cooking matters. Dutch-process cocoa, the extra vanilla and the ½ tsp salt cover what's left.
   - Drain the lentils well — leftover water makes the brownies gummy. Only add the 50 g protein yoghurt if the batter is too stiff to spread.
   - Blitz completely smooth so there's no lentil texture. Taste the raw batter and add more monkfruit if you want it sweeter.
   - Pull it slightly underbaked; it firms up as it cools and gets fudgier cold.
