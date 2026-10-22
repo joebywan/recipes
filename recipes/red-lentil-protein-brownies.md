@@ -29,18 +29,18 @@ Read left to right. Each shaded box is a step that combines everything to its le
 | Ingredient | Amount |
 | --- | --- |
 | Eggs | 2 |
-| Vanilla | 1 tsp |
+| Vanilla | 2 tsp |
 
 ### Dry mix
 
 | Ingredient | Amount |
 | --- | --- |
-| Cocoa | 30 g |
+| Cocoa | 30 g — Dutch-process if you have it |
 | Chocolate whey | 30 g |
 | Powdered peanut butter | 2 tbsp |
 | Monkfruit sweetener | 3 tbsp |
 | Baking powder | 1 tsp |
-| Salt | ¼ tsp |
+| Salt | ½ tsp |
 
 ### Folded in
 
@@ -56,7 +56,7 @@ Read left to right. Each shaded box is a step that combines everything to its le
 
 ## Method
 
-1. **Cook the lentils.** Simmer the red lentils in the water for ~15 minutes, until mushy. Drain well.
+1. **Cook the lentils.** Rinse the red lentils in a sieve until the water runs clear. Simmer in the water for ~15 minutes, until very mushy. Drain, rinse again with warm water, and drain well.
 2. **Blitz smooth.** Add the eggs and vanilla to the drained lentils and blitz until completely smooth.
 3. **Add the dry mix.** Add the cocoa, whey, powdered peanut butter, monkfruit, baking powder and salt. Blitz to a thick batter.
 4. **Fold in the chocolate.** Fold in the chocolate chips, saving a few to scatter on top.
@@ -65,6 +65,7 @@ Read left to right. Each shaded box is a step that combines everything to its le
 
 ## Notes
 
+- Most of the lentil taste is in the starchy cooking water, so the rinse before and after cooking matters. Dutch-process cocoa, the extra vanilla and the ½ tsp salt cover what's left.
 - Drain the lentils well — leftover water makes the brownies gummy. Only add the 50 g protein yoghurt if the batter is too stiff to spread.
 - Blitz completely smooth so there's no lentil texture. Taste the raw batter and add more monkfruit if you want it sweeter.
 - Pull it slightly underbaked; it firms up as it cools and gets fudgier cold.
