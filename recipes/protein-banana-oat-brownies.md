@@ -62,3 +62,8 @@ Read left to right. Each shaded box is a step that combines everything to its le
 - Unflavoured powder works too. Add 1–2 tbsp honey or sweetener.
 - Chill overnight. They get denser and more brownie-like. Keeps about 4 days in the fridge, or freeze them individually.
 - Higher-protein variant: double the powder to 2 scoops (60 g), drop the oats to 40 g and add a splash of milk. That gets you ~10 g protein per square, but the texture goes more cakey.
+- For moister brownies without oil: swap some of the whey for casein or a whey-casein blend. Casein holds water and stays fudgy, while whey dries out.
+- Add 50 g more Greek yoghurt, or 60 g pumpkin purée or unsweetened apple sauce, for extra moisture at few calories.
+- Cut the oats to 45 g. Less flour means less liquid gets soaked up.
+- Try 170 °C fan for 15–18 min, and pull them while still slightly underdone.
+- Cover them while still warm and chill overnight. This traps the steam and keeps them moist.
