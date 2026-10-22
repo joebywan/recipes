@@ -1,0 +1,71 @@
+# Source for protein-banana-oat-brownies.md and .svg.
+# Edit this file, then run `python3 tools/render.py` (CI does it on merge).
+
+title: Protein Banana-Oat Brownies
+summary: Fudgy banana-oat brownies, blender only.
+index_note: Fudgy banana-oat, blender only · 9 squares · ~110 cal / 7–8 g protein each
+
+facts:
+  Makes: 9 squares
+  Per square: ~110 cal / 7–8 g protein (~65 g protein per tray)
+  Tin: 20 cm square, lined
+  Bake: 180 °C fan, 16–20 min
+
+ingredients:
+  - group: Oat flour
+    items:
+      - {id: oats, name: Rolled oats, amount: 60 g}
+  - group: Wet mix
+    items:
+      - {id: bananas, name: Very ripe bananas, amount: "2"}
+      - {id: whey, name: Chocolate protein powder, amount: 30 g, note: 1 scoop}
+      - {id: cocoa, name: Cocoa, amount: 20 g}
+      - {id: eggs, name: Egg + egg white, amount: 1 + 1}
+      - {id: yoghurt, name: Greek yoghurt, amount: 150 g}
+      - {id: bp, name: Baking powder, amount: 1 tsp}
+      - {id: salt, name: Salt, amount: pinch}
+  - group: Folded in
+    items:
+      - {id: chips, name: Dark chocolate chips, amount: 40 g}
+  - group: Optional
+    optional: true
+    items:
+      - {id: milk, name: Milk, amount: 2–3 tbsp, note: only if the batter is stiff}
+
+# The engineer's chart. Each step combines ingredients and/or earlier steps;
+# the last step is the finished dish.
+chart:
+  - id: flour
+    uses: [oats]
+    do: Blend to flour
+  - id: batter
+    uses: [flour, bananas, whey, cocoa, eggs, yoghurt, bp, salt]
+    do: Blend until smooth
+  - id: fold
+    uses: [batter, chips]
+    do: Fold in, save a few chips for the top
+  - id: bake
+    uses: [fold]
+    do:
+      - Spread in lined 20 cm tin
+      - Bake 180 °C fan 16–20 min, moist crumbs on a skewer
+      - Cool, chill, slice into 9
+
+method:
+  - title: Make the oat flour.
+    text: Blend the oats to a fine flour.
+  - title: Blend the batter.
+    text: Add the bananas, protein powder, cocoa, egg and egg white, Greek yoghurt, baking powder and salt. Blend until smooth.
+  - title: Fold in the chocolate.
+    text: Fold in the chocolate chips, saving a few to scatter on top.
+  - title: Bake.
+    text: Spread into the lined 20 cm tin and bake at 180 °C fan for 16–20 minutes. Pull them when a skewer comes out with moist crumbs.
+  - title: Cool and chill.
+    text: Cool in the tin, then chill before slicing into 9 squares.
+
+notes:
+  - Underbake. Whey dries out fast, so pull them when a skewer comes out with moist crumbs.
+  - Plant protein soaks up more liquid. Add 2–3 tbsp milk if the batter is stiff.
+  - Unflavoured powder works too. Add 1–2 tbsp honey or sweetener.
+  - Chill overnight. They get denser and more brownie-like. Keeps about 4 days in the fridge, or freeze them individually.
+  - "Higher-protein variant: double the powder to 2 scoops (60 g), drop the oats to 40 g and add a splash of milk. That gets you ~10 g protein per square, but the texture goes more cakey."

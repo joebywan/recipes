@@ -7,6 +7,7 @@ A personal collection of recipes, each written once as YAML and rendered to a Ma
 <!-- index:start -->
 | Recipe | Notes |
 | --- | --- |
+| [Protein Banana-Oat Brownies](recipes/protein-banana-oat-brownies.md) | Fudgy banana-oat, blender only · 9 squares · ~110 cal / 7–8 g protein each |
 | [Red Lentil Protein Brownies](recipes/red-lentil-protein-brownies.md) | Fudgy, flourless, high-protein · 9 squares · ~110 cal / 8 g protein each |
 <!-- index:end -->
 
